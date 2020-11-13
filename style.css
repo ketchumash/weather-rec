@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', 'PT Sans', 'Helvetica';
+    background-image: url(trees.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    margin: 55px 50px;
+    text-shadow: 3px 10px rgb(black, black, black);
+    font-size: 80px;
+}
+
+.input {
+    text-align: center;
+    margin: 0 0 auto;
+}
+
+input[type="text"] {
+    height: 50px;
+    max-width: 100%;
+    width: 80%;
+    background-color: lightgray;
+    font-family: 'Rubik', sans-serif;
+    font-size: 25x;
+    font-weight: 200;
+    border: none;
+    outline: none;
+    border-radius: 0px 15px 0px 15px;
+    padding: 10px 15px;
+    transition: 0.2s ease-out;
+}
+
+input[type="search"] {
+    height: 180px;
+    width: 400px;
+    background-color: rgb(145, 100, 41);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+}
+
+.card {
+    background-color: rgba(255, 255, 224, 0);
+    height: 300px;
+    width: 800px;
+    margin: 0 auto;
+    /*positions he div into center*/
+    border-radius: 15px 15px 15px 15px;
+}
+
+.location .city {
+    margin: 40px 0 0;
+    color: rgb(190, 113, 113);
+    font-size: 50px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.location .date {
+    color: rgb(190, 113, 113);
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.descrip .temp {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    margin: 20px 0px;
+    text-shadow: 3px 10px rgb(black, black, black);
+    font-size: 90px;
+}
+
+.descrip .weather {
+    color: rgb(190, 113, 113);
+    font-size: 25px;
+    text-align: center;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.descrip .hilow {
+    color: rgb(190, 113, 113);
+    font-size: 25px;
+    text-align: center;
+    font-weight: 600;
+    font-style: italic;
+    margin: 0px 0px 40px;
+}
+
+.foodrec {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-align: center;
+}
+
+.estab {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-align: center;
+}
